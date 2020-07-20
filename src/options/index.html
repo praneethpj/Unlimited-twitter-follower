@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Follower</title>
+	<link rel="stylesheet" type="text/css" href="../browser_action/materialize.min.css">
+	<style>
+
+	.tabs{
+height: auto;
+white-space: normal;
+}
+.tab{
+display: block;
+width: 100%;
+border-bottom: 3px solid #f0f0f0;
+}
+.tab-content{
+height: 500px;
+min-height: 500px;
+width: 100%;
+background: #fcfcfc;
+border:1px solid #f0f0f0;
+}
+.indicator{
+display: none;
+}
+
+	</style>
+</head>
+<body>
+ <nav class="#424242 grey darken-3" role="navigation">
+    <div class="nav-wrapper container "><a id="logo-container" href="#" class="brand-logo">Options</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#"></a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+ 
+
+
+<div class="container" >
+ <div class="row">
+ <div class="col s12">
+
+  <div class="row">
+    <div class="col m4">
+      <ul class="tabs">
+        <li class="tab"><a style="font-size:21px;" class="active"  href="#Follow">Follow</a></li>
+        <li class="tab"><a style="font-size:21px;"  href="#Unfollow">Unfollow</a></li>
+        <li class="tab"><a style="font-size:21px;"  href="#Like">Like</a></li>
+        <li class="tab"><a style="font-size:21px;"  href="#Unlike">Unlike</a></li>
+		<li class="tab"><a style="font-size:21px;"  href="#Retweet">Retweet</a></li>
+		<li class="tab"><a style="font-size:21px;"  href="#Unretweet">Unretweet</a></li>
+      </ul>
+    </div>
+    <div class="col m8">
+      <div id="Follow" class="col tab-content">Tab 1</div>
+      <div id="Unfollow" class="col tab-content">Tab 2</div>
+      <div id="Like" class="col tab-content">Tab 3</div>
+      <div id="Unlike" class="col tab-content">Tab 4</div>
+	  <div id="Retweet" class="col tab-content">Tab 5</div>
+      <div id="Unretweet" class="col tab-content">Tab 6</div>
+    </div>
+  </div>
+   
+	</div>
+</div>
+  </div>
+      <!--   Icon Section   -->
+<!--     <div class="row">
+
+      <div class="col s3 #424242 grey lighten-3" style="height:100%;">
+ <ul class="collection">
+      <a class="collection-item #424242 grey darken-3"><h5>Alvin</h5></a>
+      <a class="collection-item #424242 grey darken-3">Alvin</a>
+      <a class="collection-item #424242 grey darken-3">Alvin</a>
+      <a class="collection-item #424242 grey darken-3">Alvin</a>
+    </ul>
+      </div>
+
+      <div class="col s9">
+        <!-- Teal page content  -->
+      
+
+   
+
+    </div>
+    <br><br>
+  </div>
+
+
+<script src="../browser_action/jquery-3.2.1.min.js"></script>
+<script src="../browser_action/materialize.min.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
